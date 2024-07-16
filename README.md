@@ -172,7 +172,7 @@ Import this logger function into the main `index.js` file: `const { logger } = r
 
 Between the `bodyParser` and the users router add the following: `app.use(logger)`
 
-This is an example of application specific middleware. Every route will now pass through our logger function and log the path and the date/time that the request was made. This would be useful for determining our most popular routes.
+This is an example of application specific middleware. Every route will now pass through our logger function and log the path and the date/time that the request was made. This would be useful for determining our most popular routes.fill
 
 ## Summary
 
